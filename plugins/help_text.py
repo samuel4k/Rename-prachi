@@ -49,9 +49,9 @@ async def help_user(bot, update):
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Please Join My Update Channel Before Using Me..**",
+                text="**Please Join plexus Update Channel for Using Me..**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="➕ Join 🎗Plexus updates to use me ➕", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -62,12 +62,12 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('📝 Rename', callback_data = "rnme"),
+                    InlineKeyboardButton('📂 File To Video', callback_data = "f2v")
                 ],
                 [
                     InlineKeyboardButton('🎞️Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('🐾 About 🐾', callback_data = "about")
                 ]
             ]
         )
@@ -100,14 +100,14 @@ async def start_me(bot, update):
             [
                 [
                         InlineKeyboardButton("🤔Help", callback_data = "ghelp"),
-                        InlineKeyboardButton('Other Bots🤖', url='https://t.me/Mo_Tech_YT/141')
+                        InlineKeyboardButton('🎗 our Group 🎗', url='https://t.me/moviesorgindex')
                 ],
                 [
-                    InlineKeyboardButton('🗣️ Any Doubt', url='https://t.me/Mo_Tech_Group'),
-                    InlineKeyboardButton('Bot Updates 🤖', url='https://t.me/Mo_Tech_YT')
+                    InlineKeyboardButton('🎬 𝐌𝐎𝐕𝐈𝐄's 𝐎𝐑𝐆 [𝐏𝐥𝐞𝐱𝐮𝐬] 🎬', url='https://t.me/moviesorgofficial'),
+                    InlineKeyboardButton('⚙️ Bot Updates ⚙️', url='https://t.me/plexus_bots_updates')
                 ],
                 [
-                    InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/wCB2zbwEguA')
+                    InlineKeyboardButton('『 Our community 』', url='https://t.me/plexus_Galaxy')
                 ]
             ]
         ),
@@ -181,8 +181,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('👨‍🎓Credits', url="https://t.me/Mai_bOTs"),
-                    InlineKeyboardButton('Editing 👨‍💻', url="https://t.me/Mo_Tech_Group")
+                    InlineKeyboardButton('🎓 Credits', url="https://t.me/MikuNakano04"),
+                    InlineKeyboardButton(' ⚜️ Owner ⚜️ ', url="https://t.me/emgu_musics")
                 ],
                 [
                     InlineKeyboardButton('🔙 Back', callback_data = "ghelp"),
