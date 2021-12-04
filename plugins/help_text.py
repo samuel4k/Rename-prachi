@@ -103,7 +103,7 @@ async def start_me(bot, update):
                         InlineKeyboardButton('🎗 our Group 🎗', url='https://t.me/moviesorgindex')
                 ],
                 [
-                    InlineKeyboardButton('🎬 𝐌𝐎𝐕𝐈𝐄's 𝐎𝐑𝐆 [𝐏𝐥𝐞𝐱𝐮𝐬] 🎬', url='https://t.me/moviesorgofficial'),
+                    InlineKeyboardButton('🎬 Movie Org Offical 🎬', url='https://t.me/moviesorgofficial'),
                     InlineKeyboardButton('⚙️ Bot Updates ⚙️', url='https://t.me/plexus_bots_updates')
                 ],
                 [
