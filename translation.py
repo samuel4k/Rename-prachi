@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """ <b> 🙋‍♂️ Hi {} , I'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail support!💯</b> \n
+    START_TEXT = """ <b> ♂️ Hi {} , I'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail support ! created by Plexus community </b> \n
 
 <b>Bot Maintained By: @sukuna_support </b> \n 
 """
